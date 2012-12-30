@@ -1,0 +1,149 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p_pic" />
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">"
+
+                    <TextView
+                        android:id="@+id/p_name"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:text="Name:" />
+
+                    <EditText
+                        android:id="@+id/e_p_name"
+                        android:layout_width="170dp"
+                        android:layout_height="50dp"
+                        android:inputType="textPersonName" >
+
+                        <requestFocus />
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                     >
+
+                    <TextView
+                        android:id="@+id/p_phone"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Phone:" />
+
+                    <EditText
+                        android:id="@+id/e_p_phone"
+                        android:layout_width="170dp"
+                        android:layout_height="50dp"
+                        
+                        android:inputType="phone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp" >
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:id="@+id/p_email"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:text="Email:" />
+
+                <EditText
+                    android:id="@+id/e_p_email"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:id="@+id/p_birthday"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:text="Birthday:" />
+
+                <EditText
+                    android:id="@+id/e_p_birthday"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:id="@+id/p_qq"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:text="QQ:" />
+
+                <EditText
+                    android:id="@+id/e_p_qq"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="50dp" >
+
+                <TextView
+                    android:id="@+id/p_address"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:text="Address:" />
+
+                <EditText
+                    android:id="@+id/e_p_address"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
