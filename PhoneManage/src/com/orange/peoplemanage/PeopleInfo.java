@@ -1,8 +1,6 @@
 package com.orange.peoplemanage;
 
 import android.app.Activity;
-import android.content.ContentResolver;
-import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.net.Uri;
@@ -12,7 +10,6 @@ import android.provider.Contacts.People;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.orange.phonemanage.Main;
@@ -20,13 +17,10 @@ import com.orange.phonemanage.R;
 
 public class PeopleInfo extends Activity{
 
-	private ImageView p_imageView;
+
 	private EditText e_p_name;
 	private EditText e_p_phone;
-	private EditText p_email; 
-	private EditText p_birthday;
-	private EditText p_qq;
-	private EditText p_address;
+
 	private String p_name;
 	private String p_phone;
 	
